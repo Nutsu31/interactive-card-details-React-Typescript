@@ -1,0 +1,173 @@
+.form { 
+    width: 960px;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 16px;
+    text-align: left;
+    position: relative;
+    
+}
+
+.input {
+    width: 382px;
+    height: 45px;
+    padding-left: 16px;
+    background: #FFFFFF;
+    outline: none;
+    
+    border: 1px solid #DFDEE0;
+    border-radius: 8px;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 23px;
+}
+
+.miniInput {
+    width: 80px;
+    height: 45px;
+    padding-left: 16px;
+    border-radius: 8px;
+    outline: none;
+    border: 1px solid #DFDEE0;
+    text-align: center;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 23px;
+}
+
+.cvc{
+    height: 45px;
+    width: 191px;
+    padding-left: 16px;
+    border-radius: 8px;
+    outline: none;
+    border: 1px solid #DFDEE0;
+    text-align: center;
+    font-weight: 500;
+font-size: 18px;
+line-height: 23px;
+}
+
+.miniDivFlexBox {
+    width: 382px;
+    display: flex;
+    gap: 28px;
+}
+
+.p{
+    text-align: left;
+    font-family: 'Space Grotesk';
+font-style: normal;
+font-weight: 500;
+font-size: 12px;
+line-height: 15px;
+letter-spacing: 2px;
+text-transform: uppercase;
+}
+
+.btn{
+    color: white;
+    height: 53px;
+    width: 381px;
+    margin-top: 12px;
+    border-radius: 8px;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 23px;
+    background: #21092F;
+    border-radius: 8px;
+    text-align: center;
+}
+
+.cardRoundDivForLogo{
+    height: 57px;
+    width: 87px;
+    left: 32px;
+    top: 28px;
+    /* border-radius: 50%; */
+    position: absolute;
+    z-index: 2;
+}
+
+
+
+.cardRoundMiniDiv{
+    height: 21.149999618530273px;
+    width: 21.130434036254883px;
+    left: 150.86956787109375px;
+    top: 40.92500305175781px;
+    border-radius: 50%;    
+    border: 1px solid #FFFFFF;
+    position: absolute;
+}
+
+.cardFrontNumber{
+    height: 36px;
+    width: 372px;
+    left: 32px;
+    top: 139px;
+    position: absolute;
+    font-family: 'Space Grotesk';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 28px;
+    line-height: 36px;
+    letter-spacing: 3.42222px;
+    color: #FFFFFF;
+}
+
+.cardFronName{
+    position: absolute;
+    height: 18px;
+    bottom: 20px;
+    left: 34px;
+/* Body (L) */
+
+font-family: 'Space Grotesk';
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 18px;
+/* identical to box height */
+
+letter-spacing: 2px;
+text-transform: uppercase;
+
+/* White */
+
+color: #FFFFFF;
+}
+
+.cardFrontDate{
+    position: absolute;
+    height: 18px;
+    bottom: 20px;
+    right: 20px;
+    font-family: 'Space Grotesk';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 18px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+.cvcCode {
+    position: absolute;
+    height: 18px;
+    right: 60px;
+    top: calc(50% - 18px/2);
+    font-family: 'Space Grotesk';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 18px;
+    text-align: right;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}

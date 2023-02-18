@@ -1,0 +1,67 @@
+.thanxBox {
+    height: 291px;
+    width: 381px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    gap:40px;
+}
+
+.thankPage { 
+    width: 50vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+}
+
+.thankText{
+    font-weight: 500;
+    font-size: 28px;
+    line-height: 36px;
+    /* identical to box height */
+
+    text-align: center;
+    letter-spacing: 3.42222px;
+
+    /* Deep Violet */
+
+    color: #21092F;
+}
+
+.cardAddedText{
+    font-family: 'Space Grotesk';
+font-style: normal;
+font-weight: 500;
+font-size: 18px;
+line-height: 23px;
+/* identical to box height */
+
+text-align: center;
+
+/* Purplish Grey */
+
+color: #8F8694;
+
+}
+
+.confirmBtn{
+    height: 53px;
+    width: 381px;
+    border-radius: 8px;
+    background: #21092F;
+    border-radius: 8px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 23px;
+    /* identical to box height */
+    
+    
+    /* White */
+    
+    color: #FFFFFF;    
+}
